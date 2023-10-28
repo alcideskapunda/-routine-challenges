@@ -1,12 +1,15 @@
+let custoDeFabrica = 2000;
 
-let custoDeFabrica = 5000;
+function calcularImposto(custoDeFabrica) {
+    let distribuidor = (28 / 100) * custoDeFabrica;
+    let imposto =  (45 / 100) * custoDeFabrica;
+    return distribuidor + imposto;
+}
 
-let distribuidor = (28 / 100) * custoDeFabrica;
-let imposto =  (45 / 100) * custoDeFabrica;
-
-function custoDeCarro(custoDeFabrica, distribuidor, imposto) {
-    let carroNovo = custoDeFabrica + distribuidor + imposto;
+function custoDeCarro(custoDeFabrica) {
+    let impostosTotais = calcularImposto(custoDeFabrica);
+    let carroNovo = custoDeFabrica + impostosTotais;
     return carroNovo;
 }
 
-console.log(custoDeCarro(custoDeFabrica, distribuidor, imposto));
+console.log(custoDeCarro(custoDeFabrica));
