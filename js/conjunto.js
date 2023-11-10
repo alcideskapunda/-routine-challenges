@@ -2,7 +2,7 @@ let valor = [3, 3, 1, 5];
 let result = [];
 
 if (valor[0] == 1) {
-     for (let i = 1; i < valor.length; i++) {
+    for (let i = 1; i < valor.length; i++) {
         result.push(valor[i]);
         result.sort((a, b) => a - b);
     }
