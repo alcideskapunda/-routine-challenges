@@ -21,7 +21,7 @@ function validacao(nome, idade, salario, sexo, estadoCivil) {
     } else if (estadoCivil !== 'casado' && estadoCivil !== 'solteiro' && estadoCivil !== 'viuvo' && estadoCivil !== 'divorciado') {
         return "Dijite o seu estado civil seu arronbado do caralho";
     } else {
-        return `Pessoa seria, Sr. ${nome}, tem uma furtuna avaliada em: ${salario} bilhões de dolares`;
+        return `Pessoa séria,😎 Sr. ${nome}, tem uma furtuna avaliada em: ${salario.toLocaleString()} 🤑$ bilhões`;
     }
     
 }
