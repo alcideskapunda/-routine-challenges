@@ -1,3 +1,10 @@
+/*                  Challenge 05
+Ler um numero inteiro (assuma até três digitos)e imprimir a saida da segunte forma:
+CENTENA = X;    DEZENA = X;     UNIDADE = X;
+Ex: 123
+centena = 1;    dezena = 2;     unidade = 3;
+*/
+
 // IMPRIMIR SÓ OS NUMEROS
 let number = 123;
 let converterNumber = number.toString();
