@@ -1,7 +1,7 @@
 // chalenge 10 - o ultimo do ano 2023
 // 1- ler uma matriz 4x4 e calcular a soma do maior com o menor elemento da matriz./
 // 2- não transformar a matriz em array
-// 3- não usar nenhum array, apneas a matriz
+// 3- não usar nenhum array, apenas a matriz
 
 const matriz = [[8, 9, 5, 2], [12, 10, 13, 18], [2, 5, 7, 11], [14, 12, 13, 15]];
 
