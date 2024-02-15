@@ -3,10 +3,10 @@ Fazer um programa que recebe um valor número qualquer em milivolts e converte 
 let nMilivolts = 99;
 
 const conversaoPpm = (num) => {
-    let fatorConversao = "11000000e-03";
+  let fatorConversao = "11000000e-03";
 
-    return fatorConversao * num;
-}
+  return fatorConversao * num;
+};
 
 console.log(conversaoPpm(nMilivolts));
 
@@ -16,9 +16,9 @@ let a = 5;
 let b = 10;
 
 const soma = (a, b) => {
-    let maisCemMais = -a - b;
+  let maisCemMais = -a - b;
 
-    return maisCemMais * -1;
-}
+  return maisCemMais * -1;
+};
 
 console.log(soma(a, b));
